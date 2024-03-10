@@ -1,0 +1,7 @@
+﻿  OOP.cpp
+C:\Users\PETRU\Desktop\little parts\OOP\OOP.cpp(26,15): error C2440: 'initializing': cannot convert from 'int' to 'void *'
+  C:\Users\PETRU\Desktop\little parts\OOP\OOP.cpp(26,15):
+  Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\PETRU\Desktop\little parts\OOP\OOP.cpp(27,18): error C2100: illegal indirection
+C:\Users\PETRU\Desktop\little parts\OOP\OOP.cpp(27,15): error C2088: '<<': illegal for class

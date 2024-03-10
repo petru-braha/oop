@@ -1,0 +1,5 @@
+﻿  OOP.cpp
+C:\Users\PETRU\Desktop\little parts\OOP\OOP.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  syntax_extern.cpp
+  Generating Code...
+  OOP.vcxproj -> C:\Users\PETRU\Desktop\little parts\OOP\Debug\OOP.exe
