@@ -30,13 +30,13 @@ void advanced_pointers()
 
 //pointers to functions
 typedef int (*functions)(int, int);
-int Sum(int a, int b) { return a + b; }
-int Dif(int a, int b) { return a - b; }
-int Mul(int a, int b) { return a * b; }
-int Div(int a, int b) { return a / b; }
+int S(int a, int b) { return a + b; }
+int D(int a, int b) { return a - b; }
+int M(int a, int b) { return a * b; }
+int DV(int a, int b){ return a / b; }
 void point_functions()
 {
-    functions arr_pF[4] = { Sum, Dif, Mul, Div };
+    functions arr_pF[4] = { S, D, M, DV };
     for (int i = 0; i < 4; i++)
         std::cout << arr_pF[i](6, 3) << ' ';
 }

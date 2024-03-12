@@ -1,3 +1,5 @@
+/*
+
 //C1
 
 class person
@@ -26,3 +28,6 @@ person::person()
 short int person::skin_colors;
 char person::hobby;
 
+
+
+*/

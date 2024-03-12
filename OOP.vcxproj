@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="H1.cpp" />
+    <ClCompile Include="Homework\H1\H1.cpp" />
+    <ClCompile Include="Homework\H2\H2_main.cpp" />
+    <ClCompile Include="Homework\H2\H2_NumberList.cpp" />
     <ClCompile Include="OOP.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="random_class.cpp" />
@@ -135,7 +137,11 @@
     <ClCompile Include="syntax_extern_2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="numbers.txt" />
+    <Text Include="Homework\H1\numbers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Homework\H1\H1_lab_extra.h" />
+    <ClInclude Include="Homework\H2\H2_NumberList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

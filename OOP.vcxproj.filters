@@ -13,33 +13,53 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\H1">
-      <UniqueIdentifier>{907c14be-34b2-43af-b333-26d2abd1f299}</UniqueIdentifier>
+    <Filter Include="Source Files\Homework 1">
+      <UniqueIdentifier>{3dd025e8-2ba8-4f34-9e92-298a509621ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\syntax">
+      <UniqueIdentifier>{af4233a7-989f-4a52-bb76-ec492b002daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Homework 2">
+      <UniqueIdentifier>{302175b6-3c50-4e0c-8b72-4cddad4e2b40}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OOP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="syntax_extern_1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="pointers.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="syntax_extern_2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="H1.cpp">
-      <Filter>Source Files\H1</Filter>
     </ClCompile>
     <ClCompile Include="random_class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="syntax_extern_1.cpp">
+      <Filter>Source Files\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="syntax_extern_2.cpp">
+      <Filter>Source Files\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework\H1\H1.cpp">
+      <Filter>Source Files\Homework 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework\H2\H2_NumberList.cpp">
+      <Filter>Source Files\Homework 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework\H2\H2_main.cpp">
+      <Filter>Source Files\Homework 2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="numbers.txt">
-      <Filter>Source Files\H1</Filter>
+    <Text Include="Homework\H1\numbers.txt">
+      <Filter>Source Files\Homework 1</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Homework\H1\H1_lab_extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework\H2\H2_NumberList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
