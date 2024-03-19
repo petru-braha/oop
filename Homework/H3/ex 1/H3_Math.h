@@ -1,3 +1,5 @@
+#pragma once
+
 class Math
 {
 public:
@@ -9,6 +11,6 @@ public:
     static int Mul(int, int, int);
     static int Mul(double, double);
     static int Mul(double, double, double);
-    static int Add(int count, ...); // sums up a list of integers
+    static int Add(int count, ...);
     static char* Add(const char*, const char*);
 };

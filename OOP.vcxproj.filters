@@ -66,6 +66,9 @@
     <ClCompile Include="Homework\H3\H3_main.cpp">
       <Filter>Source Files\Laboratory 3</Filter>
     </ClCompile>
+    <ClCompile Include="Homework\H3\ex 2\h3_canvaDef.cpp">
+      <Filter>Source Files\Laboratory 3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Homework\H1\numbers.txt">
@@ -86,6 +89,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Homework\H3\ex 1\H3_Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework\H3\ex 2\H3_canva.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -134,6 +134,7 @@
     <ClCompile Include="Homework\H2\ex 1\H2_NumberList.cpp" />
     <ClCompile Include="Homework\H2\ex 2\H2_studentProps.cpp" />
     <ClCompile Include="Homework\H3\ex 1\H3_Math.cpp" />
+    <ClCompile Include="Homework\H3\ex 2\h3_canvaDef.cpp" />
     <ClCompile Include="Homework\H3\H3_main.cpp" />
     <ClCompile Include="opp_main.cpp" />
     <ClCompile Include="pointers.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Homework\H2\ex 2\H2_studentFct.h" />
     <ClInclude Include="Homework\H2\ex 2\H2_studentProps.h" />
     <ClInclude Include="Homework\H3\ex 1\H3_Math.h" />
+    <ClInclude Include="Homework\H3\ex 2\H3_canva.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

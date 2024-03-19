@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "A:\\learn\\OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEFF876C-BFA8-4F39-B961-52DB68D800CE}|OOP.vcxproj|A:\\learn\\OOP\\Homework\\H2\\H2_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BEFF876C-BFA8-4F39-B961-52DB68D800CE}|OOP.vcxproj|solutionrelative:Homework\\H2\\H2_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEFF876C-BFA8-4F39-B961-52DB68D800CE}|OOP.vcxproj|A:\\learn\\OOP\\opp_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BEFF876C-BFA8-4F39-B961-52DB68D800CE}|OOP.vcxproj|solutionrelative:opp_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,33 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "opp_main.cpp",
               "DocumentMoniker": "A:\\learn\\OOP\\opp_main.cpp",
               "RelativeDocumentMoniker": "opp_main.cpp",
               "ToolTip": "A:\\learn\\OOP\\opp_main.cpp",
               "RelativeToolTip": "opp_main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-18T23:31:22.07Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "H2_main.cpp",
-              "DocumentMoniker": "A:\\learn\\OOP\\Homework\\H2\\H2_main.cpp",
-              "RelativeDocumentMoniker": "Homework\\H2\\H2_main.cpp",
-              "ToolTip": "A:\\learn\\OOP\\Homework\\H2\\H2_main.cpp",
-              "RelativeToolTip": "Homework\\H2\\H2_main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T13:08:17.416Z",
+              "WhenOpened": "2024-03-19T15:27:27.313Z",
               "EditorCaption": ""
             }
           ]

@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 //1. Recap simple C library functions
 int conversion(char number[])
 {
