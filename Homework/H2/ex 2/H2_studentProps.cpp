@@ -2,13 +2,13 @@
 #include <iostream>
 void student::setName()
 {
-	char temp[250] = { 0 };
 	std::cout << "the student, "; 
-	std::cin.getline(temp, 250);
-	strcpy_s(this->name, temp);
+	std::cin.getline(this->name, 250);
 }
 char* student::getName()
 {
+	if (this->name[0] == 0)
+		std::cout << "name not set\n";
 	return this->name;
 }
 
@@ -19,6 +19,8 @@ void student::setMTH()
 }
 float student::getMTH()
 {
+	if (this->marks[mathematics] == -1)
+		std::cout << "grade not set\n";
 	return this->marks[mathematics];
 }
 
@@ -29,6 +31,8 @@ void student::setENG()
 }
 float student::getENG() 
 {
+	if (marks[english] == -1)
+		std::cout << "grade not set\n";
 	return this->marks[english];
 }
 
@@ -39,6 +43,8 @@ void student::setHST()
 }
 float student::getHST()
 {
+	if (marks[history] == -1)
+		std::cout << "grade not set\n";
 	return this->marks[history];
 }
 
@@ -46,6 +52,14 @@ float student::average_grade()
 {
 	float s = 0;
 	for (int i = 0; i < 3; i++)
+	{
+		if (marks[i] == -1)
+		{
+			std::cout << "grades not set\n";
+			return 0;
+		}
 		s += this->marks[i];
+
+	}
 	return s / 3;
 }

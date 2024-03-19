@@ -24,18 +24,20 @@ void H2_numberList_main()
 #include "ex 2\H2_studentFct.h"
 void H2_student_main()
 {
-	student intern;
+	student intern, bachelor;
 	intern.setName();
-	intern.setENG(); 
-	intern.setHST(); 
-	intern.setMTH(); 
+	intern.setMTH();
+	intern.setENG();
+	intern.setHST();
 	std::cout << intern.getName() << "'s average: " << intern.average_grade() << "\n";
 	
+	//test unitialised values
+	std::cout << bachelor.getName();
+
 	//test for global functions
-	student bachelor; bachelor.setName(); bachelor.setENG(); bachelor.setHST(); bachelor.setMTH();
-	std::cout << "comparison: name, eng, hst, math, avg:\n";
-	std::cout << compare_name(intern, bachelor) << compare_ENG(intern, bachelor) << compare_HST(intern, bachelor) << compare_MTH(intern, bachelor) << compare_AVG(intern, bachelor);
-
-	//the test for uninitialised variables
-
+	bachelor.setName(); 
+	//std::cout << "comparison: name, eng, hst, math, avg:\n";
+	//std::cout << compare_name(intern, bachelor) << compare_ENG(intern, bachelor) << compare_HST(intern, bachelor) << compare_MTH(intern, bachelor) << compare_AVG(intern, bachelor);
 }
+
+//test!!!!!!!!!!!!!!!!!!!!!!!

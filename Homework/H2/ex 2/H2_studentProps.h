@@ -5,8 +5,8 @@
 class student
 {
 private:
-	char name[100]; //set + get
-	float marks[3];
+	char name[100] = { 0 };
+	float marks[3] = {-1};
 public:
 	void setName();
 	char* getName();
@@ -22,8 +22,3 @@ public:
 
 	float average_grade();
 };
-
-/*
-a cpp file for the global functions implementation
-a main.cpp file that shows how the methods and global functions can be used.
-*/

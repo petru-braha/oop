@@ -7,7 +7,7 @@ void H2_student_main();
 
 int main()
 {
-    //H2_student_main();
+    H2_student_main();
     return 0;
 }
 
