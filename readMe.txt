@@ -18,3 +18,5 @@
 * no matter how many files an exercise has, there will be one more file in the folder_assignment: name_of_the_homework_main.cpp (it introduces the "main" functions for every task of an assignment such that they can be called in the main function of oop_main.cpp)
 
 Please let me know if there is any trouble with the names of my environment. Can not wait for some feedback. :)
+
++++++
