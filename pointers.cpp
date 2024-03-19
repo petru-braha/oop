@@ -36,7 +36,7 @@ int M(int a, int b) { return a * b; }
 int DV(int a, int b){ return a / b; }
 void point_functions()
 {
-    functions arr_pF[4] = { S, D, M, DV };
+    functions arr_pF[4] = { &S, &D, &M, &DV };
     for (int i = 0; i < 4; i++)
         std::cout << arr_pF[i](6, 3) << ' ';
 }

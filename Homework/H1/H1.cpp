@@ -155,40 +155,40 @@ int Div(int a, int b) { return a / b; }
 void H1_lab_extra_mainFunction()
 {
     char input[] = "---***++++++///---+++/+-**---";
-    func Operatori[4] = { Sum, Dif, Mul, Div };
-    int Svalue = 0;
+    func Operatori[4] = { &Sum, &Dif, &Mul, &Div };
+    int Svalue = 0, idx = 0;
     Content x;
-    double idx = 0;
 
     for (int i = 0; i < strlen(input); i++)
     {
-        switch (input[i] - 42)
+        switch (input[i])
         {
-        case INMULTIRE:
+        case '*':
             idx = 2;
             x.p1 = 3;
             x.p2 = 3;
             break;
-        case SUMA:
+        case '+':
             idx = 0;
-            x.p1 = 7;
+            x.p1 = 6;
             x.p2 = 5;
             break;
-        case DIFERENTA:
+        case '-':
             idx = 1;
             x.p1 = 10;
             x.p2 = 1;
             break;
-        case IMPARTIRE:
+        case '/':
             idx = 3;
-            x.p1 = 8;
+            x.p1 = 92;
             x.p2 = 4;
             break;
         default:
             break;
         }
 
-        //Svalue += Operatori[idx](x.p1, x.p2);//error that i don't understand
+        //337
+        Svalue += Operatori[idx](x.p1, x.p2); 
     }
     std::cout << Svalue;
 }

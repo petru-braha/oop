@@ -127,12 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="constructors.cpp" />
     <ClCompile Include="Homework\H1\H1.cpp" />
+    <ClCompile Include="Homework\H2\ex 2\H2_studentFct.cpp" />
     <ClCompile Include="Homework\H2\H2_main.cpp" />
-    <ClCompile Include="Homework\H2\H2_NumberList.cpp" />
-    <ClCompile Include="OOP.cpp" />
+    <ClCompile Include="Homework\H2\ex 1\H2_NumberList.cpp" />
+    <ClCompile Include="Homework\H2\ex 2\H2_studentProps.cpp" />
+    <ClCompile Include="Homework\H3\ex 1\H3_Math.cpp" />
+    <ClCompile Include="Homework\H3\H3_main.cpp" />
+    <ClCompile Include="opp_main.cpp" />
     <ClCompile Include="pointers.cpp" />
-    <ClCompile Include="random_class.cpp" />
+    <ClCompile Include="random_class.h" />
     <ClCompile Include="syntax_extern_1.cpp" />
     <ClCompile Include="syntax_extern_2.cpp" />
   </ItemGroup>
@@ -141,7 +146,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Homework\H1\H1_lab_extra.h" />
-    <ClInclude Include="Homework\H2\H2_NumberList.h" />
+    <ClInclude Include="Homework\H2\ex 1\H2_NumberList.h" />
+    <ClInclude Include="Homework\H2\ex 2\H2_studentFct.h" />
+    <ClInclude Include="Homework\H2\ex 2\H2_studentProps.h" />
+    <ClInclude Include="Homework\H3\ex 1\H3_Math.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

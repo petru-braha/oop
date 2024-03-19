@@ -19,8 +19,8 @@ enum VALORI {
 typedef int (*func)(int, int);
 
 struct Content {
-    int p1=0;
-    int p2=0;
+    int p1;
+    int p2;
 };
 
 int Sum(int a, int b);
