@@ -151,7 +151,7 @@ int Dif(int a, int b) { return a - b; }
 int Mul(int a, int b) { return a * b; }
 int Div(int a, int b) { return a / b; }
 
-void H1_lab_extra_mainFunction()
+void H1_extra_main()
 {
     char input[] = "---***++++++///---+++/+-**---";
     func Operatori[4] = { &Sum, &Dif, &Mul, &Div };

@@ -5,7 +5,7 @@
 void H1_sum();
 void H1_lenght_sort();
 void H1_mainProblem();
-void H1_lab_extra_mainFunction();   //extra
+void H1_extra_main();               //extra
 
 //lab 2
 void H2_numberList_main();          //ex 1
@@ -17,7 +17,5 @@ void H3_canva_main();               //ex 2
 
 int main()
 {
-    //H2_student_main();
-    H3_canva_main();
     return 0;
 }

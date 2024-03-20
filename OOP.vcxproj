@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="constructors.cpp" />
+    <ClCompile Include="derivations.cpp" />
     <ClCompile Include="Homework\H1\H1.cpp" />
     <ClCompile Include="Homework\H2\ex 2\H2_studentFct.cpp" />
     <ClCompile Include="Homework\H2\H2_main.cpp" />

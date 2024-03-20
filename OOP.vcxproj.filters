@@ -69,6 +69,9 @@
     <ClCompile Include="Homework\H3\ex 2\h3_canvaDef.cpp">
       <Filter>Source Files\Laboratory 3</Filter>
     </ClCompile>
+    <ClCompile Include="derivations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Homework\H1\numbers.txt">
