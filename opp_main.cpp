@@ -10,6 +10,7 @@ void H1_extra_main();               //extra
 //lab 2
 void H2_numberList_main();          //ex 1
 void H2_student_main();             //ex 2
+void H2_movie_main();               //extra
 
 //lab 3
 void H3_mathematics_main();         //ex 1
@@ -18,6 +19,6 @@ void H3_canva_main();               //ex 2
 void pointers();
 int main()
 {
-
+    H2_movie_main();
     return 0;
 }

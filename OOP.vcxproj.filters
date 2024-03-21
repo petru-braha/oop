@@ -72,6 +72,15 @@
     <ClCompile Include="derivations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Homework\H2\extra\H2_MovieSeries.cpp">
+      <Filter>Source Files\Laboratory 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework\H2\extra\H2_movie.cpp">
+      <Filter>Source Files\Laboratory 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework\H2\extra\H2_movies_comparison.cpp">
+      <Filter>Source Files\Laboratory 2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Homework\H1\numbers.txt">
@@ -95,6 +104,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Homework\H3\ex 2\H3_canva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework\H2\extra\H2_movies_comparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework\H2\extra\H2_movie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework\H2\extra\H2_MovieSeries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

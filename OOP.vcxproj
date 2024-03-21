@@ -131,6 +131,9 @@
     <ClCompile Include="derivations.cpp" />
     <ClCompile Include="Homework\H1\H1.cpp" />
     <ClCompile Include="Homework\H2\ex 2\H2_studentFct.cpp" />
+    <ClCompile Include="Homework\H2\extra\H2_movie.cpp" />
+    <ClCompile Include="Homework\H2\extra\H2_MovieSeries.cpp" />
+    <ClCompile Include="Homework\H2\extra\H2_movies_comparison.cpp" />
     <ClCompile Include="Homework\H2\H2_main.cpp" />
     <ClCompile Include="Homework\H2\ex 1\H2_NumberList.cpp" />
     <ClCompile Include="Homework\H2\ex 2\H2_studentProps.cpp" />
@@ -151,6 +154,9 @@
     <ClInclude Include="Homework\H2\ex 1\H2_NumberList.h" />
     <ClInclude Include="Homework\H2\ex 2\H2_studentFct.h" />
     <ClInclude Include="Homework\H2\ex 2\H2_studentProps.h" />
+    <ClInclude Include="Homework\H2\extra\H2_movie.h" />
+    <ClInclude Include="Homework\H2\extra\H2_MovieSeries.h" />
+    <ClInclude Include="Homework\H2\extra\H2_movies_comparison.h" />
     <ClInclude Include="Homework\H3\ex 1\H3_Math.h" />
     <ClInclude Include="Homework\H3\ex 2\H3_canva.h" />
   </ItemGroup>
