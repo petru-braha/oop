@@ -77,8 +77,8 @@ int derivations_main()
 	printf("%d ", a.computation());
 	printf("%d ", b.computation());
 	printf("%d ", b.Aa::computation());
-	~Aa();
-	~Bb();
+	a.~Aa();
+	b.~Bb();
 	std::cout<<"\n\n";
 
 	Aa* bbb = (Aa*)new Bb(5, 5);

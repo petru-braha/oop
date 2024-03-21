@@ -1,9 +1,24 @@
 #include <iostream>
 #include <stdio.h>
 
-void pointers()
+void pointers() 
 {
     int arr[] = { 3, 5, 6, 7, 9 }, * p = nullptr;
+
+    //pointers VS references:
+    p = arr;
+    std::cout << "remember: " << *p;
+    (*p) = 5;
+    std::cout << ' ' << *p << '\n';
+    /*
+    references:
+    +: forced to initalise, don't have to check NULL
+    -: can not change values
+    -: NO cast
+
+    *p = 10 explained: "*" = the value where p points at
+    **p = 1 explained: "*" = the value where *p points at
+    */
 
     //pointer to first element
     p = arr + 1;

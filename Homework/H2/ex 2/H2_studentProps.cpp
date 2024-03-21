@@ -3,7 +3,14 @@
 void student::setName()
 {
 	std::cout << "the student, "; 
-	std::cin.getline(this->name, 250);
+	
+	char elem = 0, index_name = 0;
+	while (elem != '.')
+	{
+		std::cin >> elem;
+		if (elem != '.')
+			this->name[(int)index_name++] = elem;
+	}
 }
 char* student::getName()
 {
@@ -16,6 +23,7 @@ void student::setMTH()
 {
 	std::cout << "math grade: ";
 	std::cin >> this->marks[mathematics];
+	return;
 }
 float student::getMTH()
 {

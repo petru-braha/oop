@@ -1,13 +1,2 @@
-﻿  fourth.cpp
-A:\learn\OOP\fourth.cpp(83,5): error C2512: 'Aa': no appropriate default constructor available
-  A:\learn\OOP\fourth.cpp(83,5):
-  'Aa::Aa': no appropriate default constructor available
-  	A:\learn\OOP\fourth.cpp(83,5):
-  	while trying to match the argument list '()'
-  
-A:\learn\OOP\fourth.cpp(84,5): error C2512: 'Bb': no appropriate default constructor available
-  A:\learn\OOP\fourth.cpp(84,5):
-  'Bb::Bb': no appropriate default constructor available
-  	A:\learn\OOP\fourth.cpp(84,5):
-  	while trying to match the argument list '()'
-  
+﻿  H2_main.cpp
+  OOP.vcxproj -> A:\learn\OOP\x64\Debug\OOP.exe

@@ -15,7 +15,9 @@ void H2_student_main();             //ex 2
 void H3_mathematics_main();         //ex 1
 void H3_canva_main();               //ex 2
 
+void pointers();
 int main()
 {
+
     return 0;
 }
